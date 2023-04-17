@@ -3,6 +3,8 @@ title: "Cannabis Interactive Analysis"
 author: "Guiliana Mustiga"
 date: "`r Sys.Date()`"
 output:
+  pdf_document:
+    toc: yes
   html_document:
     number_sections: yes
     fig_caption: yes
@@ -12,8 +14,6 @@ output:
     theme: cosmo
     highlight: tango
     code_folding: hide
-  pdf_document:
-    toc: yes
 ---
 
 ```{r setup, include=FALSE}
